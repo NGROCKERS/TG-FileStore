@@ -1,4 +1,4 @@
-# (c) @TeleRoidGroup || @PredatorHackerzZ
+# (c) @ADARSHMEDIAS || @NGROCKERS
 
 import os
 import asyncio
@@ -47,14 +47,14 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/GreyMatters_bots_discussion"),
-						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/GreyMatter_bots"),
+						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/ngrockers"),
+						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/+GsFSpn-3xgwyYmNk"),
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
 						InlineKeyboardButton("👨‍🔧 Dᴇᴠs ", callback_data="aboutdevs"),
-						InlineKeyboardButton("💢 Sᴏᴜʀᴄᴇ ", url="https://GitHub.com/GreyMatter_bots/TG-FileStore"),
-						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/GreyMatter_bots")
+						InlineKeyboardButton("💢 Special ", url="https://t.me/ADARSHMEDIAS"),
+						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/mallurockersclub_bot")
 					],
                                         [
 						InlineKeyboardButton("🔐 Cʟᴏsᴇ ", callback_data="closeMessage") 
@@ -93,7 +93,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/GreyMatters_bots_discussion)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/malluvillamovies)",
                                      disable_web_page_preview=True)
             return
 
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.message_id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{str_to_b64(file_er_id)}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ADARSHMEDIAS_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -286,7 +286,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
 					[
-						InlineKeyboardButton("🔅 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/GreyMatter658/TG-FileStore")
+						InlineKeyboardButton("🔅 Special", url="https://t.me/adarshmedias")
 					],
 					[
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ Mᴀsᴛᴇʀ", callback_data="aboutdevs"),
@@ -304,7 +304,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                                         [
-						InlineKeyboardButton("🔅 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/GreyMatter658/TG-FileStore")
+						InlineKeyboardButton("🔅 Special ", url="https://t.me/adarshmedias")
 					],
 					[
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ", callback_data="aboutbot"),
@@ -322,18 +322,17 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/Greymatters_bots_discussion"),
-						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/GreyMatter_bots"),
+						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/ngrockers"),
+						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/+GsFSpn-3xgwyYmNk"),
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
 						InlineKeyboardButton("👨‍🔧 Dᴇᴠs ", callback_data="aboutdevs"),
-						InlineKeyboardButton("💢 Sᴏᴜʀᴄᴇ ", url="https://github.com/GreyMatter658/TG-FileStore"),
-						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/GreyMatter_bots")
+						InlineKeyboardButton("💢 Special ", url="https://t.me/ADARSHMEDIAS"),
+						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/mallurockersclub_bot")
 					],
                                         [
-						InlineKeyboardButton("🔐 Cʟᴏsᴇ ", callback_data="closeMessage") 
-					]
+						InlineKeyboardButton("🔐 Cʟᴏsᴇ ", callback_data="closeMessage")					]
                 ]
             )
         )
@@ -344,7 +343,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Greymatters_bots_discussion).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ngrockers).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -352,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             except UserNotParticipant:
                 invite_link = await bot.create_chat_invite_link(int(Config.UPDATES_CHANNEL))
                 await cmd.message.edit(
-                    text="**You still didn't joined my Updates Channel 😑, Please Join My Updates Channel**\n\nDue to Overload Only Channel Subscribers can Use this Bot",
+                    text="**You still didn't joined my Updates Channel 😑, Please Join My Movies Updates Channel**\n\nDue to Overload Only Channel Subscribers can Use this Bot",
 	            reply_markup=InlineKeyboardMarkup(
 						[
 							[
@@ -368,7 +367,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/GreyMatters_bots_duscussion).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/malluvillamovies).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -380,8 +379,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🔅 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/GreyMatters_bots_discussion"),
-						InlineKeyboardButton("🔆 Cʜᴀɴɴᴇʟ", url="https://t.me/GreyMatter_bots")
+						InlineKeyboardButton("🔅 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ngrocker"),
+						InlineKeyboardButton("🔆 Cʜᴀɴɴᴇʟ", url="https://t.me/+GsFSpn-3xgwyYmNk")
 					],
 					[
 						InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
