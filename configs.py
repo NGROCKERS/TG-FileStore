@@ -23,15 +23,15 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 
 ╭────[ **🔅NG ROCKERS BOT🔅**]────⍟
 │
-├🔸🤖 **My Name:** [NG ROCKERS BOT �](https://t.me/{BOT_USERNAME})
+├🔸🤖 **My Name:** [NG ROCKERS BOT ](https://t.me/{BOT_USERNAME})
 │
 ├🔸📝 **Language:** [𝐏𝐲𝐭𝐡𝐨𝐧𝟑](https://www.python.org)
 │
 ├🔹📚 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 │
-├🔹🎬🔎** 𝐌𝐎𝐕𝐈𝐄𝐒 𝐁𝐎𝐓:**[MALLUROCKERSCLUB_BOT](https://t.me/mallurockersclub_bot)
+├🔹🎬🔎** 𝐌𝐎𝐕𝐈𝐄𝐒𝐁𝐎𝐓:**[MALLUROCKERSCLUB_BOT](https://t.me/mallurockersclub_bot)
 │
-├🔸👨‍💻 **Developer:** [@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫](https://t.me/ADARSHPAPPADI) 
+├🔸👨‍💻 **Developer:** [@ADARSH](https://t.me/ADARSHPAPPADI) 
 │
 ├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://youtu.be/CxisqTXErLo)
 │
@@ -40,7 +40,7 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@�ADARSHPAPPADI](https://t.me/adarshpappadi) 
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@ADARSHPAPPADI](https://t.me/adarshpappadi) 
 
 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐢𝐬 𝐒𝐮𝐩𝐞𝐫 𝐍𝐨𝐨𝐛. 𝐉𝐮𝐬𝐭 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐨𝐜𝐬. 𝐀𝐧𝐝 𝐒𝐞𝐞𝐤𝐢𝐧𝐠 𝐇𝐞𝐥𝐩 𝐅𝐫𝐨𝐦 𝐏𝐫𝐨 𝐂𝐨𝐝𝐞𝐫𝐬\n**@NGROCKERS_bots**
 
