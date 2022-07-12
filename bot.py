@@ -48,7 +48,7 @@ async def start(bot: Client, cmd: Message):
 				[
 					[
 						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/ngrocker"),
-						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/+GsFSpn-3xgwyYmNk"),
+						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/mallurockersclub"),
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
@@ -323,7 +323,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
 						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/ngrocker"),
-						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/+GsFSpn-3xgwyYmNk"),
+						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/mallurockersclub"),
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
@@ -380,7 +380,7 @@ async def button(bot: Client, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("🔅 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ngrocker"),
-						InlineKeyboardButton("🔆 Cʜᴀɴɴᴇʟ", url="https://t.me/+GsFSpn-3xgwyYmNk")
+						InlineKeyboardButton("🔆 Cʜᴀɴɴᴇʟ", url="https://t.me/mallurockersclub")
 					],
 					[
 						InlineKeyboardButton("🤖 Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
