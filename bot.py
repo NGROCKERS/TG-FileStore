@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/mallurockersclub")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/MRCUPDATE")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,7 +82,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/mallurockersclub"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/MRCUPDATE"),
                         InlineKeyboardButton(" Support Group", url="https://t.me/malluvillamovies")
                     ]
                 ]
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/mallurockersclub")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/MRCUPDATE")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -363,7 +363,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/malluvillamovies"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/mallurockersclub")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/MRCUPDATE")
                     ]
                 ]
             )
@@ -412,7 +412,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/malluvillamovies"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/mallurockersclub")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/MRCUPDATE")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
