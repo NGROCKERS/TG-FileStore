@@ -9,7 +9,7 @@ class Config(object):
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
@@ -30,13 +30,13 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 │
 ├🔹📚 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 │
-├🔹📡 **Hosted On:** [Heroku](https://koyeb.com)
+├🔹📡 **Hosted On:** [KOYEB](https://koyeb.com)
 │
 ├🔸👨‍💻 **Developer:** [@NGROCKER](https://t.me/ngrocker) 
 │
 ├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/malluvillamovies)
 │
-├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/mallurockersclub)
+├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/MRCUPDATE)
 │
 ╰──────[ 😎 ]───────────⍟
 """
