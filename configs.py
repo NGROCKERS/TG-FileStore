@@ -34,9 +34,9 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 │
 ├🔸👨‍💻 **Developer:** [@NGROCKER](https://t.me/ngrocker) 
 │
-├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/malluvillamovies)
+├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/+47Y8rP4PnTU1NTM0)
 │
-├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/MRCUPDATE)
+├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/+biAr-nXW0pAxYjA9)
 │
 ╰──────[ 😎 ]───────────⍟
 """
