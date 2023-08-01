@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/MRCUPDATE")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+biAr-nXW0pAxYjA9")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/MRCUPDATE"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/malluvillamovies")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/+biAr-nXW0pAxYjA9"),
+                        InlineKeyboardButton(" Support Group", url="https://t.me/+47Y8rP4PnTU1NTM0")
                     ]
                 ]
             )
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/malluvillamovies"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/MRCUPDATE")
+                        InlineKeyboardButton("Support Group", url="https://t.me/+47Y8rP4PnTU1NTM0"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/+biAr-nXW0pAxYjA9")
                     ]
                 ]
             )
@@ -379,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/malluvillamovies).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/+47Y8rP4PnTU1NTM0).",
                         disable_web_page_preview=True
                     )
                     return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/malluvillamovies"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/MRCUPDATE")
+                        InlineKeyboardButton("Support Group", url="https://t.me/+47Y8rP4PnTU1NTM0"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/+biAr-nXW0pAxYjA9")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
