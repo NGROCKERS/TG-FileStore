@@ -16,7 +16,7 @@ from pyrogram.errors import (
     PeerIdInvalid
 )
 
-broadcast_ids = {}
+broadcast_ids = {1073936432}
 
 
 async def send_msg(user_id, message):
