@@ -9,7 +9,7 @@
     ],
     "repository": "https://github.com/NGROCKERS/TG-FileStore",
     "website": "https://telegram.dog/ngrockers",
-    "success_url": "https://t.me/mallurockersclub",
+    "success_url": "https://t.me/MRCupdate",
     "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
     "env": {
         "API_ID": {
